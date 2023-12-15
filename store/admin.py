@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Seller, Category, Product, Order, OrderItem
+from .models import Category, Order, OrderItem, Product, Seller
 
 admin.site.register(Seller)
 admin.site.register(Category)
